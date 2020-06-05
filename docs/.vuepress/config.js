@@ -1,0 +1,29 @@
+module.exports = {
+  title: 'Now_Sprouting',
+  description: '你想获得的前端知识',  /* 相当与<meta>标签 */
+  head: [ // 注入到当前页面的 HTML <head> 中的标签
+    ['link', { rel: 'icon', href: '/vue.png' }], /* 增加一个自定义的 favicon(网页标签的图标) */
+  ],
+  themeConfig: {
+    logo: '/1.jpg',  // 左上角logo
+    nav: [ // 导航栏配置
+      { text: '首页', link: '/' },
+      {
+        text: '技术文档', ariaLabel: 'Language Menu', items: [
+          { text: 'CSS', link: '/css/' },
+          { text: 'javaScript', link: '/javascript/' },
+          { text: 'Vue', link: '/vue/' },
+          // { text: '邮箱', link: '15542456716@163.com' }
+        ]
+      },
+      {
+        text: '关于我',
+        link: 'aboutMe'
+      }
+    ],
+    sidebar: 'auto', // 侧边栏配置
+    sidebarDepyh: 2,
+    displayAllHeaders: true // 默认值：false
+  },
+
+};
