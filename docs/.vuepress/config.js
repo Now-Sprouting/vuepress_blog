@@ -10,15 +10,16 @@ module.exports = {
       { text: '首页', link: '/' },
       {
         text: '技术文档', ariaLabel: 'Language Menu', items: [
-          { text: 'CSS', link: '/css/' },
-          { text: 'javaScript', link: '/javascript/' },
-          { text: 'Vue', link: '/vue/' },
+          { text: 'HTML', link: '/HTML/' },
+          { text: 'CSS', link: '/CSS/' },
+          { text: 'JS', link: '/JS/' },
+          { text: 'Vue', link: '/Vue/' },
           // { text: '邮箱', link: '15542456716@163.com' }
         ]
       },
       {
         text: '关于我',
-        link: 'aboutMe'
+        link: '/AboutMe/'
       }
     ],
     sidebar: 'auto', // 侧边栏配置
