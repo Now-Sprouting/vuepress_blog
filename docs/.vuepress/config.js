@@ -22,9 +22,31 @@ module.exports = {
         link: '/AboutMe/'
       }
     ],
-    sidebar: 'auto', // 侧边栏配置
-    sidebarDepyh: 2,
-    displayAllHeaders: true // 默认值：false
+    sidebar: {
+      '/HTML/': [
+        '',
+        '1',
+        '2'
+      ],
+      '/CSS/': [
+        '',
+        '1',
+        '2'
+      ],
+      '/JS/': [
+        '',
+        '1',
+        '2'
+      ],
+      '/Vue/': [
+        '',
+        '1',
+        '2'
+      ],
+    }
+    //  'auto', 侧边栏配置
+    // sidebarDepyh: 2,
+    // displayAllHeaders: true  默认值：false
   },
 
 };
