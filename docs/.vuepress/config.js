@@ -14,6 +14,7 @@ module.exports = {
           { text: 'CSS', link: '/CSS/' },
           { text: 'JS', link: '/JS/' },
           { text: 'Vue', link: '/Vue/' },
+          { text: 'PS', link: '/PS/' },
           // { text: '邮箱', link: '15542456716@163.com' }
         ]
       },
@@ -32,7 +33,9 @@ module.exports = {
       '/CSS/': [
         '',
         '1',
-        '2'
+        '2',
+        '3',
+        '4'
       ],
       '/JS/': [
         '',
@@ -44,6 +47,9 @@ module.exports = {
         '1',
         '2'
       ],
+      '/PS/': [
+        ''       
+      ]
     }
     //  'auto', 侧边栏配置
     // sidebarDepyh: 2,
