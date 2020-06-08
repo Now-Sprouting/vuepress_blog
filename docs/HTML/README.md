@@ -32,9 +32,9 @@ HTML5的文档解析不再基于SGML(Standard Generalized Markup Language)标准
 <big>,<center>,<font>,<u>,<basefont>,<s>,<tt>
 ```
 
-::: tip
+::: warning
 
-HTML5主张用CSS3来呈现文本效果
+HTML5新增标签具体用法需要和HTML语义化相结合,具体用法请参考 --> [3:HTML5语义化](https://now-sprouting.github.io/HTML/2.html#%E4%BB%80%E4%B9%88%E6%98%AF%E8%AF%AD%E4%B9%89%E5%8C%96)
 
 :::
 
@@ -90,7 +90,7 @@ HTML5主张用CSS3来呈现文本效果
 ```html
 <!-- 只写属性名默认为true -->
 <input type="text" autofocus/>
-等价于
+<!-- 等价于 -->
 <input type="text" autofocus="autofocus"/>
 ```
 
@@ -101,12 +101,12 @@ HTML5主张用CSS3来呈现文本效果
 
 3. 引入了应用程序缓存器(application cache)，可对web进行缓存，在没有网络的情况下使用，通过创建cache manifest文件,创建应用缓存，为PWA(Progressive Web App)提供了底层的技术支持。
 
+
+:saxophone: 以上文档部分借阅于"神三元的博客"
+
 ::: tip
 以上文档如有错误请联系我进行改进
 :::
-
-
-:saxophone: 以上文档部分借阅于"神三元的博客"
 
 
 
