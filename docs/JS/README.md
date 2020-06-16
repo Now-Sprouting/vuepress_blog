@@ -107,6 +107,9 @@ null的类型是object，这是由于历史原因造成的。1995年的 JavaScri
 ``` javaScript
     55 === '55' //false
 ```
+::: tip
+以上文档如有错误请联系我进行改进
+:::
 
 
 

@@ -13,8 +13,7 @@ module.exports = {
           { text: 'HTML', link: '/HTML/' },
           { text: 'CSS', link: '/CSS/' },
           { text: 'JS', link: '/JS/' },
-          { text: 'Vue', link: '/Vue/' },
-          { text: 'PS', link: '/PS/' },
+          // { text: 'Vue', link: '/Vue/' }          
           // { text: '邮箱', link: '15542456716@163.com' }
         ]
       },
@@ -53,6 +52,12 @@ module.exports = {
         '6',       
         '7',
         '8',
+        '10',
+        '11',
+        '12',
+        '13',
+        '14',
+        '16'
       ],
       '/Vue/': [
         '',
