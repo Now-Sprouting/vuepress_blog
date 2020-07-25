@@ -12,8 +12,8 @@ module.exports = {
         text: '技术文档', ariaLabel: 'Language Menu', items: [
           { text: 'HTML', link: '/HTML/' },
           { text: 'CSS', link: '/CSS/' },
-          { text: 'JS', link: '/JS/' },
-          // { text: 'Vue', link: '/Vue/' }          
+          { text: 'JavaScript', link: '/JS/' },
+          { text: 'Vue', link: '/Vue/' }          
           // { text: '邮箱', link: '15542456716@163.com' }
         ]
       },

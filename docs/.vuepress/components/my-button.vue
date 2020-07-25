@@ -36,7 +36,7 @@ export default {
       font-size: 30px;
       font-weight: 800;
       text-align: center;
-      margin-top: 20px;
+      margin-top: 0 auto;
     }
     p {
       font-size: 18px;
