@@ -1,0 +1,38 @@
+.custom-page-class {
+    .page {
+        .theme-default-content:not(.custom) {
+            max-width 100%
+            margin 0
+            padding 0
+            .aboutme {
+                position: relative
+                left 50%
+                transform translateX(-50%)
+            }
+        }
+        .structure-img {
+            display none
+        }
+    }
+}
+
+.theme-default-content:not(.custom) {
+    margin 0 
+}
+.page-edit, .page-nav {
+    margin 0 !important 
+}
+.theme-default-content div[class*="language-"] {
+    margin 0
+}
+@media (max-width: 1425px)
+    .structure-img {
+        display none
+    }
+    .aboutme{
+        padding 15px !important
+        p {
+            text-align left !important
+        }
+    }
+    
