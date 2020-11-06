@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.jpg
+heroImage: /hero.png
 heroText: Now_Sprouting的博客
 tagline: 从HTML开始学习,可以点击右上角的技术文档来学习其他的内容
 actionText: 开始学习 →

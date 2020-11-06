@@ -14,6 +14,7 @@ module.exports = {
           { text: 'HTML', link: '/HTML/' },
           { text: 'CSS', link: '/CSS/' },
           { text: 'JavaScript', link: '/JS/' },
+          { text: 'React', link: '/React/' },
           { text: 'Vue', link: '/Vue/' },  
           { text: 'Vue3', link: '/Vue3/' }        
           // { text: '邮箱', link: '15542456716@163.com' }
@@ -60,6 +61,10 @@ module.exports = {
         '13',
         '14',
         '16'
+      ],
+      '/React/':[
+        '',
+        '1',
       ],
       '/Vue/': [
         '',
