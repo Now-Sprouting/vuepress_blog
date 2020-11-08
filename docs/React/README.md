@@ -5,58 +5,44 @@
 class App extends React.Component {
     constructor() {
         super();
-        this.state = 
+        this.state = {
+        
         }
     }
     render() {
         return (
-            <div>
-                <div class="header">
-                    <h1 title="标题">我是标题</h1>
-                </div>
-                <div class="content">
-                    <h1 title="内容">我是内容</h1>
-                    <button>按钮1</button>
-                    <button>按钮2</button>
-                </div>
-                <div class="footer">
-                    <h1 title="底部">我是底部</h1>
-                </div>
-            </div>
+          <div id="main" class="main">
+              <div class="header">
+                  <p>This is Header</p>
+              </div>
+              <div class="content">
+                  <p>This is Content</p>
+              </div>
+              <div class="footer">
+                  <p>This is Footer</p>
+              </div>
+          </div>
         )
     }
 }
+// 渲染组件
+ReactDOM.render(<App/>, document.getElementById('app'))
 ```
 在 render 函数中 return 的这部分就是 `JSX` 语法
 
 ## JSX 实际上是 React.createElement 的语法糖
-我们可以去 bable 官网上 `试一试`, 我们把 return 中的 `JSX` 粘贴到 babel 官网上, 勾选出 react 我们就会发现 `JSX`被转换成了另一种写法, 准换如下:
+我们可以去 bable 官网上 `试一试`, 我们把 return 中的 `JSX` 粘贴到 babel 官网上, 勾选出 react 我们就会发现 `JSX`被转换成了另一种写法, 转换如下:
 ``` JS
-return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "header"
-}, /*#__PURE__*/React.createElement("h1", {
-    title: "\u6807\u9898"
-}, "\u6211\u662F\u6807\u9898")), /*#__PURE__*/React.createElement("div", {
-    className: "content"
-}, /*#__PURE__*/React.createElement("h2", null, "\u6211\u662F\u9875\u9762\u7684\u5185\u5BB9/*#__PURE__*/React.createElement("button", null, "\u6309\u94AE"), /*#__PURE__*/RecreateElement("button", null, "+1"), /*#__PURE__*/React.createElement("a", {
-    href: "http://www.baidu.com"
-}, "\u767E\u5EA6\u4E00\u4E0B")), /*#__PURE__*/React.createElement("div", {
-    className: "footer"
-}, /*#__PURE__*/React.createElement("p", null, "\u6211\u662F\u5C3E\u90E8\u7684\u5185\u5BB9")));
-```
-`/*#__PURE__*/`是一些注释, 我们把它去除掉
-```JS
-return React.createElement("div", null, React.createElement("div", {
-    className: "header"
-}, React.createElement("h1", {
-    title: "\u6807\u9898"
-}, "\u6211\u662F\u6807\u9898")), React.createElement("div", {
-    className: "content"
-}, React.createElement("h2", null, "\u6211\u662F\u9875\u9762\u7684\u5185\u5BB9"), RecreateElement("button", null, "\u6309\u94AE"), React.createElement("button", null, "+1React.createElement("a", {
-    href: "http://www.baidu.com"
-}, "\u767E\u5EA6\u4E00\u4E0B")), React.createElement("div", {
-    className: "footer"
-}, React.createElement("p", null, "\u6211\u662F\u5C3E\u90E8\u7684\u5185\u5BB9")));
+React.createElement("div", {
+  id: "main",
+  class: "main"
+}, React.createElement("div", {
+  class: "header"
+}, React.createElement("p", null, "This is Header")), React.createElement("div", {
+  class: "content"
+}, React.createElement("p", null, "This is Content")), React.createElement("div", {
+  class: "footer"
+}, React.createElement("p", null, "This is Footer")));
 ```
 可以观察出代码中包含大部分的 `React.createElement` 实际上 `JSX` 就是 `React.createElement`函数的语法糖, 语法糖的含义就是这种语法可以让你尝到甜头, <br/>
 ::: tip
@@ -155,8 +141,11 @@ return ReactElement(
   props,
 );
 ```
-经过查阅, React 利用 ReactElement 对象组成了一个 JavaScript 的对象树；而这个 JavaScript 的对象树就是传说中的 `虚拟DOM` (Virtual DOM) 关于虚拟 DOM 请参考 [X:虚拟 DOM -  ReactElement](./#ReactElement)
+经过查阅, React 利用 ReactElement 对象组成了一个 JavaScript 的对象树；而这个 JavaScript 的对象树就是传说中的 `虚拟DOM` (Virtual DOM), 而虚拟DOM 正是通过 `ReactDOM` 的 `render` 函数渲染出真实的 `DOM`,如下代码
+```js
+ReactDOM.render(<App/>, document.getElementById('app'))
+```
 
 ## 总结
 通过对上面知识点的理解, 我们不难总结出从编写 React 的 JSX 代码到具体实现页面的逻辑为:<br/>
-JSX ---> 经过babel转化 ---> React.createElement() ---> JS 对象树(虚拟DOM)  ---> React.render()函数映射出浏览器识别的真实DOM
+JSX ---> 经过babel转化 ---> React.createElement() ---> JS 对象树(虚拟DOM)  ---> ReactDOM.render()函数映射出浏览器识别的真实DOM

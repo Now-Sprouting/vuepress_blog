@@ -65,6 +65,7 @@ module.exports = {
       '/React/':[
         '',
         '1',
+        '2'
       ],
       '/Vue/': [
         '',
