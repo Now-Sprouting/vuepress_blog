@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Now_Sprouting',
-  base:'/blog/',
+  // base:'/blog/',
   description: '你想获得的前端知识',  /* 相当与<meta>标签 */
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', { rel: 'icon', href: '/vue.png' }], /* 增加一个自定义的 favicon(网页标签的图标) */
@@ -65,7 +65,9 @@ module.exports = {
       '/React/':[
         '',
         '1',
-        '2'
+        '2',
+        '3',
+        '4',
       ],
       '/Vue/': [
         '',
