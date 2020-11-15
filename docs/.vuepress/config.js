@@ -16,7 +16,8 @@ module.exports = {
           { text: 'JavaScript', link: '/JS/' },
           { text: 'React', link: '/React/' },
           { text: 'Vue', link: '/Vue/' },  
-          { text: 'Vue3', link: '/Vue3/' }        
+          { text: 'Vue3', link: '/Vue3/' },     
+          { text: '浏览器原理', link: '/浏览器原理/' },     
           // { text: '邮箱', link: '15542456716@163.com' }
         ]
       },
@@ -77,6 +78,12 @@ module.exports = {
       '/Vue3/': [
         '',
         '1'
+      ],
+      '/浏览器原理/': [
+        '1',
+        '2',
+        '3',
+        '4'
       ],
       // '/PS/': [
       //   '',
