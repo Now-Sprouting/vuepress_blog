@@ -5,7 +5,7 @@
       <article>
       <p class="title-v2"><strong>君子谦谦若天行健,何惧前路艰险</strong></p>
       <p><span>建站目的</span> 对自学的<strong>重要</strong>知识点做一定总结,<strong>加深印象</strong>,提高学习效率,另外对正在学习前端相关知识的同学提供一种文档式的知识点总结,从而做到使自己对知识进行<strong>查缺补漏</strong>和为他人提供已掌握知识的<strong>帮助</strong><br></p>
-      <p><span>博客内容</span>目前博客内容包括<strong>HTML(5)</strong>, <strong>CSS(3)</strong>, <strong>JavaScript</strong>的基础知识,现在正在总结<strong>Vue</strong>的相关知识点,以后还会完善 <strong>持续更新</strong>其他前端方面的知识</p>
+      <p><span>博客内容</span>目前博客内容包括<strong>HTML(5)</strong>, <strong>CSS(3)</strong>, <strong>JavaScript</strong>, <strong>React</strong>,<strong>浏览器</strong>的基础知识,以后还会完善 <strong>持续更新</strong>其他前端方面的知识</p>
       <p><span>教育背景</span> <strong>2017</strong>年入学 <strong>大连交通大学</strong> <strong>软件工程专业</strong><strong>2021</strong>年本科毕业</p>
       <p><span>联系方式</span> <strong>QQ:2634028416</strong><br>
         &nbsp;&nbsp;&nbsp;<strong>电话:15542456716(微信同步)</strong>

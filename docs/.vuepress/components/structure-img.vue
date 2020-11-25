@@ -1,6 +1,6 @@
 <template>
   <div class="structure-img">
-    <h2>推荐阅读</h2>
+    <h2>基本内容</h2></h2>
     <div class="img"></div>
     <!-- <img
       src="../../images/custructure-image/博客推荐阅读1(2).png"

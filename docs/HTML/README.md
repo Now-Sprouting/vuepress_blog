@@ -102,11 +102,8 @@ HTML5新增标签具体用法需要和HTML语义化相结合,具体用法请参�
 3. 引入了应用程序缓存器(application cache)，可对web进行缓存，在没有网络的情况下使用，通过创建cache manifest文件,创建应用缓存，为PWA(Progressive Web App)提供了底层的技术支持。
 
 
-:saxophone: 以上文档部分借阅于"神三元的博客"
 
-::: tip
-以上文档如有错误请联系我进行改进
-:::
+
 
 
 
